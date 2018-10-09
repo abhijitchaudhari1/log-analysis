@@ -1,0 +1,11 @@
+rules:
+  rule1:
+    interval: 5
+    parameter: res_time
+    threshold: 100
+    operator: '>'
+  rule2:
+    interval: 60
+    parameter: error_count
+    threshold: 5
+    operator: '>'
